@@ -36,6 +36,33 @@
 
   }
 
+  form{
+    display: flex;
+  }
+
+  .days{
+    display: flex;
+    gap: 48px;
+    margin-left: 32px;
+  }
+  .day{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .day div {
+    margin-bottom: 8px;
+
+    font-family: 'Roboto Mono';
+    font-size: 20px;
+    line-height: 125%;
+
+    color: #a1a1aa;
+
+    text-align: center;
+  }
+
   input {
     appearance: none;
     -webkit-appearance: none;
