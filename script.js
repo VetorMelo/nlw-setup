@@ -29,6 +29,6 @@ function save () {
 //    takePills:["01-03"],
 //    journal:["01-02"],
 //}
-
-//nlwSetup.setData(data)
-//nlwSetup.load()
+const data = JSON.parse(localStorage.getItem('NLWSetup@habits')) || {}
+nlwSetup.setData(data)
+nlwSetup.load()
